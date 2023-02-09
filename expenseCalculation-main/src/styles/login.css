@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: rgb(37,0,72);
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(37,0,72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1{
+    color: rgb(21,176,219);
+}
+.left-login-imagem{
+    width: 35vw;
+    
+}
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.tela-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 30px 35px;
+    background: rgb(62,38,82);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgb(00,00,000);
+}
+.tela-login > h1{
+    color: rgb(21,176,219);
+    font-weight: bold;
+    margin: 0;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(151,97,198);
+    color: #f0ffffde;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+    color: #f0ffff94 ;
+}
+.botao-login{
+    width: 100%;
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(37,0,72);
+    background: rgb(21,176,219);
+}
+p{
+    margin: 0;
+    color: #f0ffffde;
+}
+.tela-cadastro{
+    margin: 0;
+    margin-right: auto;
+    height: fit-content;
+}
+a{
+    text-decoration: none;
+    color: rgb(21,176,219);
+}
+.w50{
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+}
+form .input-group label{
+    color: #f0ffffde;
+    display: block;
+    margin-bottom: 5px;
+}
+form .input-group input{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(151, 97, 198, 1);
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #f0ffffde;
+    
+}
